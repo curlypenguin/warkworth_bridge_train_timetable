@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-icon {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 400px) {
+    .title-icon {
+        display: none; /* Hide the SVG */
+    }
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    margin: 0;
+    text-align: right;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.loading {
+    text-align: center;
+}
+
+.train-item {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: flex; /* Enables flexbox */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line if needed */
+    justify-content: space-between; /* Distributes space between items */
+}
+
+.old-train-item {
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.train-left {
+    flex: 1; /* Takes up remaining space */
+    min-width: 200px; /* Ensures it doesn't get too small */
+}
+
+.train-right {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically by default */
+    align-items: flex-end; /* Aligns text to the right */
+    margin-left: auto; /* Pushes to the far right */
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+h4 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+p {
+    margin: 0;
+    color: #34495e;
+}

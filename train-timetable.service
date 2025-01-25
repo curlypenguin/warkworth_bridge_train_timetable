@@ -1,0 +1,12 @@
+[Unit]
+Description=Train Timetable Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+WorkingDirectory=/root/train-timetable
+ExecStart=/usr/bin/env python3 /root/train-timetable/app.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

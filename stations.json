@@ -1,0 +1,116 @@
+[
+  {
+    "Station":"NCL",
+    "Station Name":"Newcastle",
+    "Distance":30.4525,
+    "Direction":"S"
+  },
+  {
+    "Station":"MAS",
+    "Station Name":"Manors",
+    "Distance":29.8775,
+    "Direction":"S"
+  },
+  {
+    "Station":"CRM",
+    "Station Name":"Cramlington",
+    "Distance":20.7275,
+    "Direction":"S"
+  },
+  {
+    "Station":"MPT",
+    "Station Name":"Morpeth",
+    "Distance":14.0275,
+    "Direction":"S"
+  },
+  {
+    "Station":"PEG",
+    "Station Name":"Pegswood",
+    "Distance":12.1775,
+    "Direction":"S"
+  },
+  {
+    "Station":"WDD",
+    "Station Name":"Widdrington",
+    "Distance":7.4775,
+    "Direction":"S"
+  },
+  {
+    "Station":"ACK",
+    "Station Name":"Acklington",
+    "Distance":2.19,
+    "Direction":"S"
+  },
+  {
+    "Station":"ALM",
+    "Station Name":"Alnmouth",
+    "Distance":4.16,
+    "Direction":"N"
+  },
+  {
+    "Station":"CHT",
+    "Station Name":"Chathill",
+    "Distance":15.31,
+    "Direction":"N"
+  },
+  {
+    "Station":"BWK",
+    "Station Name":"Berwick-Upon-Tweed",
+    "Distance":36.2975,
+    "Direction":"N"
+  },
+  {
+    "Station":"RSN",
+    "Station Name":"Reston",
+    "Distance":46.585,
+    "Direction":"N"
+  },
+  {
+    "Station":"DUN",
+    "Station Name":"Dunbar",
+    "Distance":64.6975,
+    "Direction":"N"
+  },
+  {
+    "Station":"ELT",
+    "Station Name":"East Linton",
+    "Distance":70.64,
+    "Direction":"N"
+  },
+  {
+    "Station":"DRM",
+    "Station Name":"Drem",
+    "Distance":76.01,
+    "Direction":"N"
+  },
+  {
+    "Station":"LND",
+    "Station Name":"Longniddry",
+    "Distance":80.535,
+    "Direction":"N"
+  },
+  {
+    "Station":"PST",
+    "Station Name":"Prestonpans",
+    "Distance":84.26,
+    "Direction":"N"
+  },
+  {
+    "Station":"WAF",
+    "Station Name":"Wallyford",
+    "Distance":86.0725,
+    "Direction":"N"
+  },
+  {
+    "Station":"MUB",
+    "Station Name":"Musselburgh",
+    "Distance":88.585,
+    "Direction":"N"
+  },
+  {
+    "Station":"EDB",
+    "Station Name":"Edinburgh",
+    "Distance":93.76,
+    "Direction":"N"
+  }
+]
